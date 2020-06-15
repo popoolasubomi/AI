@@ -94,7 +94,7 @@ def shortest_path(source, target):
     If no possible path, returns None.
     """
     start = Node(source, None, None)
-    stack = StackFrontier()
+    stack = QueueFrontier()
     stack.add(start)
     
     seen = set()
