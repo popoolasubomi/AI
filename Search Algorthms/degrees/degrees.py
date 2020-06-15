@@ -60,8 +60,7 @@ def main():
 
     # Load data from files into memory
     print("Loading data...")
-    #load_data(directory)
-    load_data("/Users/subomipopoola/Documents/Artificial Intelligence/Search Algorthms/degrees/small")
+    load_data(directory)
     print("Data loaded.")
 
     source = person_id_for_name(input("Name: "))
@@ -100,7 +99,7 @@ def shortest_path(source, target):
     
     seen = set()
     
-    while stack:
+    while stack.frontier:
         node = stack.remove()
         
         if node.state == target:
