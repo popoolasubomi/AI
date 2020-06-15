@@ -9,7 +9,7 @@
 - Neural Networks
 - Language Processing
 
-## Programming Languages:
+**Programming Languages:**
 - Python
 
 
